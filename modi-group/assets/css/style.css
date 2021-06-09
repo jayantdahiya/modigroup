@@ -4259,7 +4259,7 @@ textarea.form-control {
   font-size: 14px;
   line-height: 1;
   font-weight: 700;
-  color: #1275ba;
+  color: #99d5ff;
   margin-bottom: 18px;
 }
 
@@ -7137,4 +7137,31 @@ textarea.form-control {
   font-size: 50px;
   line-height: 1;
   color: #ffffff;
+}
+
+.animated {
+  
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top:95px;
+  margin-bottom:60px;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slide {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
