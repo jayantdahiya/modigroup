@@ -181,6 +181,8 @@ $(function () {
         time: 4000
     });
 
+  
+
     /*==========   portfolio Filtering and Sorting  ==========*/
     $("#filtered-items-wrap").mixItUp();
     $(".portfolio-filter li a").on("click", function (e) {
