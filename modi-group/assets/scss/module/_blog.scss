@@ -4,14 +4,26 @@
 .blog-item {
     position: relative;
     margin-bottom: 30px;
-
+    // float: left;
+    // height: 200px;
+    // line-height: 0;
+    // overflow: hidden;
+    // position: relative;
+    // width: 100%;
+    // background: #f1f1f1;
     .blog__img {
         position: relative;
         overflow: hidden;
         margin-bottom: 25px;
+    //     height: 100% !important;
+    // width: 100% !important;
+    // object-fit: cover;
+    // object-position: top center;
+    // border-radius: 0px !important;
 
         img {
             @include prefix(transition, all 0.9s ease, webkit moz ms o);
+            
         }
     }
 
