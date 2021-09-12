@@ -108,7 +108,7 @@ $(function () {
             transitionStyle: $(this).data('transition'),
             animateOut: $(this).data('animate-out'),
             animateIn: $(this).data('animate-in'),
-            autoplayTimeout: 15000,
+            autoplayTimeout: 2400,
             responsive: {
                 0: {
                     items: 1,
@@ -139,7 +139,7 @@ $(function () {
         transitionStyle: $(this).data('transition'),
         animateOut: $(this).data('animate-out'),
         animateIn: $(this).data('animate-in'),
-        autoplayTimeout: 15000,
+        autoplayTimeout: 1000,
         responsive: {
             0: {
                 items: 1
@@ -179,7 +179,7 @@ $(function () {
     /*==========   counterUp  ==========*/
     $(".counter").counterUp({
         delay: 10,
-        time: 4000
+        time: 2000
     });
 
   
